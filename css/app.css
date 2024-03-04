@@ -41,7 +41,15 @@ body {
   justify-content: center;
 }
 
-#container a {
+#container h1 {
+  color: white;
+  background: transparent;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 28px;
+  margin: 0px;
+  z-index: 100;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.075em;
   text-decoration: none;
   position: relative;
   z-index: 10;
@@ -52,19 +60,4 @@ body {
   mix-blend-mode: color;
   transform: skew(-15deg, 0);
   transition: border 0.1s ease-out;
-}
-
-#container a:hover {
-  border: 0.2em solid red;
-}
-
-#container a h1 {
-  color: white;
-  background: transparent;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 28px;
-  margin: 0px;
-  z-index: 100;
-  -webkit-font-smoothing: antialiased;
-  letter-spacing: 0.075em;
 }
