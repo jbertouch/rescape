@@ -48,4 +48,5 @@ body {
   z-index: 10;
   transform: skew(-15deg, 0);
   padding: 0.5em 1.5em;
+  letter-spacing: 0.005em;
 }
