@@ -22,7 +22,7 @@ body {
     z-index: 1;
     background-image: url("/images/gradient.jpg");
     background-size: cover;
-    filter: blur(10px);
+    filter: blur(80px);
 }
 
 #container {
